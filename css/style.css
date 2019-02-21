@@ -15,14 +15,21 @@ body {
   text-align: center;
 }
 
+.indexnav ul {
+  padding-top: 40px;
+  text-align: left;
+}
+
 nav {
   margin-top: 25px;
   margin-bottom: 50px;
   text-align: left;
 }
 
+
 .indexnav {
-  background-color: black;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .current {
@@ -104,7 +111,7 @@ footer {
   padding: 10px;
 }
 
-.background nav, header {
+.imagearea {
   background-color: black;
   background-image: url("../images/teampic.jpg");
   background-repeat: no-repeat;
@@ -114,16 +121,12 @@ footer {
   height: 490px;
 }
 
-.background nav {
-  padding-top: 50px;
-}
-
 
 .background h1 {
+  color: white;
   height: 100px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 75px;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
 }
@@ -144,17 +147,13 @@ footer {
   font-size: 40px;
 }
 
-.background div {
+.background .indexcontainer {
   padding: 10px;
   background-color: black;
   color: white;
 }
 
 .background a {
-  color: white;
-}
-
-.background h1 {
   color: white;
 }
 
@@ -182,7 +181,6 @@ footer {
   margin-top: -30px;
   margin-bottom: -20px;
   margin-right: -10px;
-
 }
 
 body {
